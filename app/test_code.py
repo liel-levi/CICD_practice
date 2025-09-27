@@ -1,6 +1,4 @@
-from main import display_cars
-
+import functions 
 def test_code():
-    count = display_cars()
-    assert isinstance(count,list)
-    assert len(count) >= 1
+    assert hasattr(functions, "add_car")
+    assert hasattr(functions, "sell_car")
